@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+h1 { color: #1a73e8; }
+
+.tracker-container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 5px;
+}
+
+button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover { background-color: #155ab6; }
+
+.tracking-result {
+  margin-top: 20px;
+}
+
+ul { list-style-type: none; padding-left: 0; }
+
+li { padding: 10px; border-bottom: 1px solid #ddd; }
+
+#map {
+  height: 300px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.not-found { color: red; }
